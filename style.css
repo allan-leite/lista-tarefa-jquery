@@ -11,7 +11,6 @@ body {
 
 header h1 {
     text-align: center;
-    text-decoration: line-through;
 }
 
 form {
@@ -34,15 +33,5 @@ ul {
 }
 
 li {
-    cursor: pointer;
-}
-
-li:focus{
-    text-decoration: line-through;
-}
-
-li button {
-    border: none;
-    background-color: #dfdfdf;
     cursor: pointer;
 }
