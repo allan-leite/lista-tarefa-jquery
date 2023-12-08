@@ -8,7 +8,7 @@ $(document).ready(function(){
         $(novoItem).appendTo('.container')
         
         $('ul').on('click', 'li', function(){
-            lista = $('li').css({"text-decoration":"line-through"})
+            lista = $(this).css({"text-decoration":"line-through"})
         })
     })
 })
